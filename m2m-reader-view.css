@@ -1,0 +1,69 @@
+body {
+  padding-bottom: 64px;
+}
+a:visited {
+  color: #d33bf0;
+}
+a:link, a:link:hover, a:link:active, a:link * {
+  color: #0095dd;
+}
+a:link {
+  text-decoration: none;
+  font-weight: normal;
+}
+pre {
+  white-space: pre-wrap;
+}
+pre code {
+  background-color: #eff0f1;
+  color: #393318;
+  font-family: ui-monospace;
+  display: block;
+  padding: 5px 10px;
+}
+body[data-mode="dark"] pre code {
+  background-color: #585858;
+  color: #e8e8e8;
+}
+
+/* CSS for serif fonts */
+body[data-font=serif] {
+  font-family: 'Iowan Old Style';
+  line-height: 1.4;
+}
+/* CSS for sans-serif fonts */
+body[data-font=sans-serif] {
+  font-family: 'Seravek';
+  line-height: 1.3;
+}
+blockquote {
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 2rem;
+  padding-right: 3rem
+}
+a:link {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* CSS for "sepia" theme */
+body[data-mode=sepia] {}
+/* CSS for "light" theme */
+body[data-mode=light] {}
+/* CSS for "dark" theme */
+body[data-mode=dark] {}
+
+#reader-domain,
+#reader-credits, #doi, #published-time, #reader-estimated-time {
+  font-family: 'Seravek';
+}
+#reader-domain > span:first-child {
+  font-weight: 700;
+}
+#reader-title {
+  font-family: 'Seravek';
+  font-weight: 700;
+  font-size: 180%;
+  line-height: 1;
+}
