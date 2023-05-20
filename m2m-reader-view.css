@@ -39,13 +39,12 @@ figure picture img {
   width: 100%;
   height: auto;
 }
-
-/* CSS for serif fonts */
+/* serif fonts reader mode */
 body[data-font=serif] {
   font-family: 'Iowan Old Style';
   line-height: 1.4;
 }
-/* CSS for sans-serif fonts */
+/* sans-serif fonts reader mode */
 body[data-font=sans-serif] {
   font-family: 'Seravek';
   line-height: 1.3;
@@ -60,14 +59,9 @@ a:link {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
-
-/* CSS for "sepia" theme */
-body[data-mode=sepia] {}
-/* CSS for "light" theme */
-body[data-mode=light] {}
-/* CSS for "dark" theme */
-body[data-mode=dark] {}
-
+hr {
+  margin: 2rem 0;
+}
 #reader-domain,
 #reader-credits, #doi, #published-time, #reader-estimated-time {
   font-family: 'Seravek';
@@ -81,3 +75,9 @@ body[data-mode=dark] {}
   font-size: 180%;
   line-height: 1;
 }
+/* CSS for "sepia" theme */
+body[data-mode=sepia] {}
+/* CSS for "light" theme */
+body[data-mode=light] {}
+/* CSS for "dark" theme */
+body[data-mode=dark] {}
