@@ -9,12 +9,12 @@ Featuring the same typography used of other interfaces I've been using:
 
 ## Examples
 
-![Top of the page](/assets/reader-view-css-1.jpg "Top of the page")
+![Top of the page](assets/reader-view-css-1.jpg "Top of the page")
 
 ***
 
-![Image with caption](/assets/reader-view-css-2.jpg "Image with caption")
+![Image with caption](assets/reader-view-css-2.jpg "Image with caption")
 
 ***
 
-![Video in an iframe](/assets/reader-view-css-3.jpg "Video in an iframe")
+![Video in an iframe](assets/reader-view-css-3.jpg "Video in an iframe")
