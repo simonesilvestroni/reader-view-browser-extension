@@ -1,4 +1,4 @@
-# Reader View browser extension custom CSS
+# Reader View (browser extension) - Custom CSS
 
 Extension homepage: https://webextension.org/listing/chrome-reader-view.html
 
