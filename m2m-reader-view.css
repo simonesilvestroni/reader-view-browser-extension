@@ -82,3 +82,10 @@ body[data-mode=dark] {}
   font-size: 180%;
   line-height: 1;
 }
+figcaption {
+  font-size: smaller;
+  margin-top: 6px;
+}
+figcaption span:first-of-type {
+  padding-right: 6px;
+}
