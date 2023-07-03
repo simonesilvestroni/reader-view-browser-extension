@@ -31,13 +31,22 @@ a:link:active,
 a:link * {
   color: #0095dd;
 }
+a[data-mode=dark]:link,
+a[data-mode=dark]:link:hover,
+a[data-mode=dark]:link:active,
+a[data-mode=dark]:link * {
+  color: #8BE9FD;
+}
+a[data-mode=dark]:visited {
+  color: #BD93F9;
+}
 pre {
   white-space: pre-wrap;
 }
 pre code {
   background-color: #eff0f1;
   color: #393318;
-  font-family: ui-monospace;
+  font-family: 'input', monospace;
   display: block;
   padding: 5px 10px;
 }
@@ -66,29 +75,42 @@ figcaption span:first-of-type {
 
 /* CSS for serif fonts */
 body[data-font=serif] {
-  font-family: 'Iowan Old Style';
-  line-height: 1.35;
+  font-family: 'P22 Mackinac Pro';
+  line-height: 1.4;
+  font-variant-ligatures: none;
 }
 /* CSS for sans-serif fonts */
 body[data-font=sans-serif] {
-  font-family: Seravek, 'Gill Sans Nova', Ubuntu, 'Segoe UI', Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-  line-height: 1.35;
+  font-family: 'system ui', sans-serif;
+  line-height: 1.4;
 }
 
-#reader-domain,
+#reader-domain {
+  font-family: 'Seravek', sans-serif;
+}
+
 #reader-credits, 
 #doi, 
 #published-time, 
 #reader-estimated-time {
-  font-family: 'Seravek';
+  font-family: 'Seravek', sans-serif;
 }
 #reader-domain > span:first-child {
   font-weight: 700;
 }
-#reader-title {
+h2, h3, h4, h5 {
   font-family: 'Seravek';
-  font-weight: 700;
-  font-size: 180%;
+  font-weight: normal;
+  font-size: 140%;
+  line-height: 1;
+  margin-top: 4rem;
+}
+#reader-title {
+font-family: 'Seravek';
+  font-weight: normal;
+  font-size: 160%;
+  text-transform: lowercase;
+  font-variant: small-caps;
   line-height: 1;
 }
 
